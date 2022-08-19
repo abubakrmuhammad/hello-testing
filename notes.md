@@ -4,15 +4,21 @@
 
 1. **A**rrange
 
-`const input = [1, 2]`
+```javascript
+const input = [1, 2];
+```
 
 2. **A**ct
 
-`const results = fn(input)`
+```javascript
+const results = fn(input);
+```
 
 3. **A**ssert
 
-`expect(results).toBe(expectedResult)`
+```javascript
+expect(results).toBe(expectedResult);
+```
 
 ## Some basic methods & props
 
@@ -36,3 +42,20 @@
 
 - focus on the essense of a test when arranging
 - keep number of `expect()` low
+
+## Async tests
+
+- the `done()` paramater
+- `async` test function
+
+## Hooks
+
+- `beforeAll()`
+- `beforeEach()`
+- `afterAll()`
+- `afterEach()`
+
+## Concurrent Tests
+
+- `it.concurrent()`
+- `describe.concurrent()`
