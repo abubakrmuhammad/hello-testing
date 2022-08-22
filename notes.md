@@ -40,12 +40,12 @@ expect(results).toBe(expectedResult);
 
 ## Only test **one thing**
 
-- focus on the essense of a test when arranging
+- focus on the essence of a test when arranging
 - keep number of `expect()` low
 
 ## Async tests
 
-- the `done()` paramater
+- the `done()` parameter
 - `async` test function
 
 ## Hooks
@@ -59,3 +59,13 @@ expect(results).toBe(expectedResult);
 
 - `it.concurrent()`
 - `describe.concurrent()`
+
+## Spies
+
+- "Wrappers" around functions or empty replacements for functions that allow you to track if & how a function was called
+
+## Mocks
+
+- A replacement for an API that may provide some test-specific behavior instead
+- `__mocks__` folder
+- `.mockImplementationOnce()`
