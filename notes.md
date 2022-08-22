@@ -69,3 +69,4 @@ expect(results).toBe(expectedResult);
 - A replacement for an API that may provide some test-specific behavior instead
 - `__mocks__` folder
 - `.mockImplementationOnce()`
+- `stubGlobal()`
